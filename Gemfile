@@ -10,13 +10,13 @@ gem 'sass-rails', '~> 5.0.0'
 gem 'uglifier', '>= 1.3.0'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.4'
 
 # Used to implement at.js for auto complete mentions/emojis
 gem 'jquery-atwho-rails'
 
 # Use twitter bootstrap sass
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.4.0'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 
