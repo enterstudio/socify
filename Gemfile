@@ -24,7 +24,7 @@ group :development do
   gem 'spring'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'letter_opener'
+  gem 'letter_opener', '>= 1.4.1'
   gem 'guard'
   gem 'guard-rspec', '~> 4.2.8'
 end
