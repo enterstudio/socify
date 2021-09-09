@@ -5,12 +5,12 @@ ruby '2.3.1'
 gem 'rails', '5.0.0'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.0'
+gem 'sass-rails', '~> 5.0.6'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.2.1'
 
 # Used to implement at.js for auto complete mentions/emojis
 gem 'jquery-atwho-rails'
@@ -18,11 +18,11 @@ gem 'jquery-atwho-rails'
 # Use twitter bootstrap sass
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '>= 4.6.3.1'
 
 group :development do
   gem 'spring'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
   gem 'letter_opener'
   gem 'guard'
@@ -37,16 +37,16 @@ group :production do
   gem 'pg'
   gem 'unicorn'
   gem 'rails_12factor'
-  gem 'fog'
-  gem 'fog-aws'
+  gem 'fog', '>= 1.38.0'
+  gem 'fog-aws', '>= 0.11.0'
 end
 
-gem 'devise'
+gem 'devise', '>= 4.2.0'
 gem 'carrierwave'
 gem 'friendly_id', '~> 5.0'
 
 gem 'will_paginate', '~> 3.1.0'
-gem 'public_activity'
+gem 'public_activity', '>= 1.5.0'
 
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'acts_as_commentable'
@@ -56,7 +56,7 @@ gem 'counter_culture', '~> 0.1.33'
 gem 'faker'
 gem 'populator'
 gem 'auto_html', '~>1.6.4'
-gem 'sanitize'
+gem 'sanitize', '>= 4.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
