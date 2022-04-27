@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.0'
+gem 'rails', '5.2.7.1'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.0'
+gem 'sass-rails', '~> 5.0.6'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -18,7 +18,7 @@ gem 'jquery-atwho-rails'
 # Use twitter bootstrap sass
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '>= 4.7.0.4'
 
 group :development do
   gem 'spring'
@@ -41,7 +41,7 @@ group :production do
   gem 'fog-aws'
 end
 
-gem 'devise'
+gem 'devise', '>= 4.4.2'
 gem 'carrierwave'
 gem 'friendly_id', '~> 5.0'
 
