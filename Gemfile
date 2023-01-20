@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.0'
+gem 'rails', '6.1.7.1'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.0'
+gem 'sass-rails', '~> 5.0.8'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -18,7 +18,7 @@ gem 'jquery-atwho-rails'
 # Use twitter bootstrap sass
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '>= 4.7.0.6'
 
 group :development do
   gem 'spring'
@@ -41,9 +41,9 @@ group :production do
   gem 'fog-aws'
 end
 
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 gem 'carrierwave'
-gem 'friendly_id', '~> 5.0'
+gem 'friendly_id', '~> 5.1', '>= 5.1.0'
 
 gem 'will_paginate', '~> 3.1.0'
 gem 'public_activity'
@@ -51,7 +51,7 @@ gem 'public_activity'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'acts_as_commentable'
 gem 'acts_as_follower'
-gem 'counter_culture', '~> 0.1.33'
+gem 'counter_culture', '~> 0.1.34'
 
 gem 'faker'
 gem 'populator'
