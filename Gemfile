@@ -38,7 +38,7 @@ group :production do
   gem 'unicorn'
   gem 'rails_12factor'
   gem 'fog'
-  gem 'fog-aws'
+  gem 'fog-aws', '>= 3.29.0'
 end
 
 gem 'devise'
